@@ -5,6 +5,9 @@ module.exports = (app) => {
      * Insert a new notification request
      * POST /notiserv/api/v1/notification
      */
+    /**
+     * This is just for checking
+     */
 
     app.post("/notiserv/api/v1/notification", notificationController.acceptNotificationRequest);
 
